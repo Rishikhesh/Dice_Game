@@ -1,12 +1,12 @@
 var randomNumber1 = Math.floor(Math.random()*6)+1;
 
-var randomimagesrc1 = "images/dice" + randomNumber1 +".png";
+var randomimagesrc1 = "dice" + randomNumber1 +".png";
 
 document.querySelectorAll("img")[0].setAttribute("src" , randomimagesrc1);
 
 var randomNumber2 = Math.floor(Math.random()*6)+1;
 
-var randomimagesrc2 = "images/dice" + randomNumber2 + ".png";
+var randomimagesrc2 = "dice" + randomNumber2 + ".png";
 
 document.querySelectorAll("img")[1].setAttribute("src" , randomimagesrc2);
 
